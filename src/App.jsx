@@ -13,8 +13,8 @@ import MyBookings from './pages/MyBookings'
 import Layout from './pages/admin/Layout'
 import Dashboard from './pages/admin/Dashboard'
 import ListBooking from './pages/admin/ListBooking'
-// import Listshows from './pages/admin/ListShows'
-import AddShows from './pages/admin/Addshows.jsx'
+import Listshows from './pages/admin/Listshows'
+import AddShows from './pages/admin/AddShows.jsx'
 import TheatersPage from './pages/TheatersPage'
 import Releases from './pages/Releases'
 
@@ -39,7 +39,7 @@ const App = () => {
         
         <Route path="/admin" element={<Layout />}>
   <Route index element={<Dashboard />} /> {/* This is now the default for /admin */}
-  {/* <Route path="add-shows" element={<Addshows />} /> */}
+   <Route path="add-shows" element={<Addshows />} /> 
   <Route path="list-shows" element={<Listshows />} />
   <Route path="list-bookings" element={<ListBooking />} />
 </Route>
