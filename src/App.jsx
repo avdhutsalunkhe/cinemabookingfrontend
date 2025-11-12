@@ -14,7 +14,7 @@ import Layout from './pages/admin/Layout'
 import Dashboard from './pages/admin/Dashboard'
 import ListBooking from './pages/admin/ListBooking'
 import Listshows from './pages/admin/Listshows'
-import Addshows from './pages/admin/Addshows.jsx'
+import AddShows from './pages/admin/AddShows.jsx'
 import TheatersPage from './pages/TheatersPage'
 import Releases from './pages/Releases'
 
