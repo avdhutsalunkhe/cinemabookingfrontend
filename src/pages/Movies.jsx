@@ -1,6 +1,6 @@
 import React from 'react'
 import { dummyShowsData } from '../assets/assets'
-import MovieCard from '../Component/MovieCard' // सुधार: Moviecard चा MovieCard असा केला
+import MovieCard from '../Component/Moviecard' // सुधार: Moviecard चा MovieCard असा केला
 import BlurCircle from '../Component/BlurCircle'
 
 const Movies = () => {
